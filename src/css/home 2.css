@@ -1,0 +1,309 @@
+.homepage {
+  width: 100%;
+  height: auto;
+  background: var(--cream);
+  overflow: hidden;
+}
+
+/* Shared section heading */
+.section-heading {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 44px;
+}
+.section-heading-row {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.section-eyebrow {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--rust);
+}
+.section-title {
+  margin-top: 6px;
+  font-family: var(--font-display);
+  font-size: 34px;
+  font-weight: 600;
+  color: var(--espresso);
+}
+.view-menu-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--mocha);
+  cursor: pointer;
+  transition: color 0.2s var(--ease-pour), gap 0.2s var(--ease-pour);
+}
+.view-menu-link:hover {
+  color: var(--rust);
+  gap: 10px;
+}
+
+/* ============ QUICK CATEGORIES ============ */
+.quick-categories-frame {
+  width: 100%;
+  padding: 96px 0 88px 0;
+}
+
+.quick-categories-grid {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.quick-category-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 28px 24px;
+  background: var(--cream-soft);
+  border: 1px solid var(--cream-line);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: transform 0.3s var(--ease-pour), box-shadow 0.3s var(--ease-pour), border-color 0.3s var(--ease-pour);
+}
+.quick-category-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lift);
+  border-color: var(--oak);
+}
+.quick-category-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  margin-bottom: 18px;
+  border-radius: 50%;
+  background: var(--oat);
+  color: var(--rust);
+  transition: background 0.3s var(--ease-pour), color 0.3s var(--ease-pour);
+}
+.quick-category-card:hover .quick-category-icon {
+  background: var(--rust);
+  color: var(--cream-soft);
+}
+.quick-category-label {
+  font-family: var(--font-display);
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--espresso);
+}
+.quick-category-desc {
+  margin-top: 6px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+
+/* ============ TRENDING FLAVORS ============ */
+.trending-flavors-frame {
+  width: 100%;
+  padding: 0 0 96px 0;
+}
+
+.trending-cards-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.trending-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: var(--cream-soft);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.35s var(--ease-pour), box-shadow 0.35s var(--ease-pour);
+}
+.trending-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lift);
+}
+.trending-card-img {
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--oat);
+}
+.trending-card-body {
+  padding: 18px 20px 22px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.trending-card-name {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--espresso);
+}
+.trending-card-meta {
+  margin-top: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.trending-card-price {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 17px;
+  color: var(--rust);
+}
+.trending-card-views {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+.trending-empty {
+  width: 100%;
+  padding: 60px 0;
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 18px;
+  color: var(--mocha);
+}
+
+/* ============ BRAND STORY ============ */
+.brand-story-frame {
+  width: 100%;
+  padding: 90px 0 110px 0;
+  background: var(--oat);
+  position: relative;
+}
+
+.brand-story-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.brand-story-copy {
+  width: 52%;
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-story-title {
+  margin-top: 6px;
+  font-family: var(--font-display);
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--espresso);
+}
+
+.brand-story-desc {
+  margin-top: 18px;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--ink-soft);
+  max-width: 480px;
+}
+
+.brand-story-points {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.brand-story-point {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.brand-story-point-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--cream-soft);
+  color: var(--rust);
+  box-shadow: var(--shadow-soft);
+}
+
+.brand-story-point-title {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--espresso);
+}
+
+.brand-story-point-desc {
+  margin: 4px 0 0 0;
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--ink-soft);
+  max-width: 380px;
+}
+
+.brand-story-visual {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-story-visual-ring {
+  position: absolute;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 40% 35%, #6b4226 0%, #2c1b12 70%);
+  animation: brewPulse 4s ease-in-out infinite;
+}
+.brand-story-visual-ring-2 {
+  position: absolute;
+  border-radius: 50%;
+  width: 78%;
+  height: 78%;
+  border: 1.5px dashed var(--oak);
+  opacity: 0.6;
+  animation: brewSpin 18s linear infinite;
+}
+
+@keyframes brewPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.035); }
+}
+@keyframes brewSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brand-story-visual-ring,
+  .brand-story-visual-ring-2 {
+    animation: none;
+  }
+}

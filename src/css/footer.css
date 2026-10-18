@@ -1,0 +1,21 @@
+.site-footer { background: var(--espresso-deep); color: rgba(255, 252, 247, .7); padding: clamp(58px, 7vw, 80px) 0 22px; }
+.site-footer-grid { display: grid; grid-template-columns: minmax(250px, 1.7fr) repeat(2, minmax(120px, .8fr)) minmax(190px, 1fr); gap: clamp(30px, 5vw, 74px); }
+.site-footer-brand { max-width: 330px; }
+.site-footer-brand img { width: 164px; height: auto; }
+.site-footer-brand p { margin: 20px 0 0; font-size: 15px; line-height: 1.7; }
+.site-footer-column { gap: 11px; }
+.site-footer-column > span { margin-bottom: 5px; color: var(--oak-light); font-family: var(--font-display); font-size: 19px; font-weight: 600; }
+.site-footer-column a { width: fit-content; color: rgba(255, 252, 247, .72); font-size: 14px; text-decoration: none; transition: color 180ms var(--ease-pour); }
+.site-footer-column a:hover { color: var(--cream-soft); }
+.site-footer-socials { display: flex; gap: 10px; }
+.site-footer-socials a,
+.site-footer-socials span { display: inline-flex; width: 36px; height: 36px; align-items: center; justify-content: center; border: 1px solid rgba(255, 252, 247, .2); border-radius: 50%; color: var(--oak-light); }
+.site-footer-socials a { transition: border-color 180ms var(--ease-pour), color 180ms var(--ease-pour), transform 180ms var(--ease-pour); }
+.site-footer-socials a:hover { border-color: var(--oak); color: var(--cream-soft); transform: translateY(-2px); }
+.site-footer-socials span { opacity: .55; }
+.site-footer-contact { display: flex; align-items: flex-start; gap: 9px; margin-top: 16px; color: var(--oak-light); }
+.site-footer-contact p { margin: 0; color: rgba(255, 252, 247, .62); font-size: 13px; line-height: 1.65; }
+.site-footer-contact strong { display: block; color: var(--cream-soft); font-size: 13px; font-weight: 700; }
+.site-footer-bottom { margin-top: 52px; padding-top: 19px; border-top: 1px solid rgba(255, 252, 247, .15); color: rgba(255, 252, 247, .46); font-size: 13px; }
+@media (max-width: 900px) { .site-footer-grid { grid-template-columns: minmax(240px, 1.5fr) repeat(2, 1fr); } .site-footer-connect { grid-column: 1 / -1; } }
+@media (max-width: 600px) { .site-footer { padding-top: 50px; } .site-footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 34px 24px; } .site-footer-brand, .site-footer-connect { grid-column: 1 / -1; } .site-footer-brand { max-width: 310px; } .site-footer-bottom { margin-top: 40px; } }

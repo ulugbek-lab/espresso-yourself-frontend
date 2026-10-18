@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <style>
+      .brown{fill:#4A250F}
+      .cream{fill:#FFF8E8}
+      .yellow{fill:#F7C515}
+      .gold{fill:#E9A900}
+      .serif{font-family:Georgia,'Times New Roman',serif;font-weight:700}
+      .sans{font-family:Arial,Helvetica,sans-serif;font-weight:700;letter-spacing:8px}
+    </style>
+  </defs>
+
+  <!-- Yellow circular badge -->
+  <circle cx="512" cy="512" r="456" class="yellow"/>
+  <circle cx="512" cy="512" r="438" fill="none" stroke="#4A250F" stroke-width="13"/>
+  <circle cx="512" cy="512" r="421" fill="none" stroke="#FFF8E8" stroke-width="8"/>
+
+  <!-- Steam -->
+  <path d="M500 290 C455 255 500 224 526 202 C553 179 551 151 528 126"
+        fill="none" stroke="#4A250F" stroke-width="17" stroke-linecap="round"/>
+  <path d="M540 291 C514 267 548 243 563 225 C578 206 579 188 567 173"
+        fill="none" stroke="#4A250F" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- Sparkles -->
+  <path d="M610 164 l10 22 22 10-22 10-10 22-10-22-22-10 22-10z" class="brown"/>
+  <path d="M664 218 l7 16 16 7-16 7-7 16-7-16-16-7 16-7z" class="brown"/>
+
+  <!-- Saucer -->
+  <ellipse cx="515" cy="466" rx="174" ry="55" class="brown"/>
+  <ellipse cx="515" cy="455" rx="160" ry="45" class="cream"/>
+  <ellipse cx="515" cy="451" rx="118" ry="28" fill="#6A3415"/>
+
+  <!-- Cup body -->
+  <path d="M383 345
+           C390 335 407 330 426 330
+           L633 330
+           C638 378 631 431 607 466
+           C587 495 556 507 515 507
+           C474 507 443 495 423 466
+           C399 431 390 378 383 345Z"
+        class="cream" stroke="#4A250F" stroke-width="10"/>
+
+  <!-- Cup coffee rim -->
+  <ellipse cx="511" cy="340" rx="127" ry="45" class="brown"/>
+  <ellipse cx="511" cy="340" rx="108" ry="32" fill="#7A3F17"/>
+
+  <!-- Latte heart -->
+  <path d="M511 360
+           C497 347 469 343 463 360
+           C458 376 478 388 511 405
+           C544 388 564 376 559 360
+           C553 343 525 347 511 360Z"
+        class="cream"/>
+  <path d="M511 404 C507 382 500 370 486 357 M511 404 C515 382 522 370 536 357"
+        fill="none" stroke="#FFF8E8" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Cup handle -->
+  <path d="M632 365 C696 340 723 370 711 409 C702 439 675 451 638 445"
+        fill="none" stroke="#4A250F" stroke-width="18" stroke-linecap="round"/>
+  <path d="M640 373 C679 359 694 375 688 400 C683 419 665 426 642 423"
+        fill="none" stroke="#FFF8E8" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Cup highlight -->
+  <path d="M430 375 C434 415 449 449 473 466"
+        fill="none" stroke="#E9A900" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Main brand text -->
+  <text x="512" y="580" text-anchor="middle" class="brown serif" font-size="88">Espresso-</text>
+  <text x="512" y="666" text-anchor="middle" class="brown serif" font-size="91">Yourself</text>
+
+  <!-- Divider -->
+  <line x1="355" y1="712" x2="455" y2="712" stroke="#4A250F" stroke-width="7" stroke-linecap="round"/>
+  <line x1="569" y1="712" x2="669" y2="712" stroke="#4A250F" stroke-width="7" stroke-linecap="round"/>
+  <path d="M512 692 C497 699 490 716 500 728 C512 735 526 719 531 699 C526 693 519 691 512 692Z"
+        class="brown"/>
+
+  <!-- Coffee shop label -->
+  <text x="512" y="760" text-anchor="middle" class="brown sans" font-size="26">COFFEE SHOP</text>
+</svg>

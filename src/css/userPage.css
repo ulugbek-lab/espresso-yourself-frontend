@@ -1,0 +1,373 @@
+.user-page {
+	width: 100%;
+	height: auto;
+	display: flex;
+	background: var(--cream);
+}
+
+.user-page .css-heg063-MuiTabs-flexContainer {
+	flex-direction: column;
+}
+
+.user-page .css-mn3ro6-MuiTabs-indicator {
+	height: 0px;
+	width: 0px;
+}
+
+.user-page .css-1ujnqem-MuiTabs-root {
+	width: 100%;
+}
+
+.user-page .my-page-frame {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	padding: 50px 0 50px 0;
+}
+
+.my-page-frame .my-page-left {
+	width: 70%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.my-page-left .menu-name {
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid var(--cream-line);
+	font-family: var(--font-display);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	color: var(--espresso);
+}
+
+.my-page-left .menu-content {
+	margin-top: 10px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.my-page-left .write-content {
+	margin-top: 10px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.user-page .menu-content .post-content {
+	margin-top: 10px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.my-page-frame .my-page-right {
+	margin-left: 30px;
+	width: 30%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.user-page .order-info-box {
+	position: relative;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: var(--cream-soft);
+	box-shadow: var(--shadow-lift);
+	border-radius: var(--radius-lg);
+}
+
+.user-page .order-info-box .settings-btn {
+	position: absolute;
+	top: 6%;
+	right: 19%;
+	cursor: pointer;
+}
+
+.user-page .order-info-box .order-user-img {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.user-page .order-info-box .order-user-img .order-user-avatar {
+	width: 150px;
+	height: 150px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border-radius: 37px;
+}
+
+.user-page .order-info-box .order-user-icon-box {
+	position: absolute;
+	padding: 5px;
+	width: 37px;
+	height: 37px;
+	top: 81%;
+	right: 0;
+	display: flex;
+	background: rgba(44, 27, 18, 0.35);
+	border-radius: 37px;
+}
+
+.user-page .order-info-box .order-user-name {
+	margin-top: 10px;
+	font-family: var(--font-body);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 36px;
+	color: var(--espresso);
+}
+
+.user-page .order-info-box .order-user-prof {
+	font-family: var(--font-body);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 36px;
+	color: var(--ink-soft);
+}
+
+.user-page .order-info-box .user-media-box {
+	margin-top: 10px;
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.user-page .order-info-box .user-desc {
+	margin-top: 30px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	font-family: var(--font-body);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--ink-soft);
+}
+
+.user-page .order-info-box .css-1e3kzd4-MuiButtonBase-root-MuiButton-root {
+	margin-top: 15px;
+	min-width: 90%;
+	height: 44px;
+	text-transform: capitalize;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 38px;
+	color: var(--cream);
+}
+
+.user-page .menu-box img {
+	width: 25px;
+}
+
+.user-page .menu-box span {
+	margin-left: 30px;
+	font-family: var(--font-body);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 38px;
+	color: var(--espresso);
+}
+
+.user-page .settings {
+	width: 95%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.user-page .settings .input-frame {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.user-page .settings .short-input {
+	width: 49%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.user-page .settings .long-input {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+.user-page .settings .spec-label {
+	font-family: var(--font-body);
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 25px;
+	color: var(--mocha);
+}
+
+.user-page .settings .spec-input {
+	position: relative;
+	margin-top: 10px;
+	padding-left: 20px;
+	width: 100%;
+	height: 54px;
+	border: none;
+	background: var(--oat);
+	box-shadow: none;
+	border: 1px solid var(--cream-line);
+	border-radius: 10px;
+	font-family: var(--font-body);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 26px;
+	color: var(--ink-soft);
+}
+
+.user-page .settings .spec-textarea {
+	position: relative;
+	margin-top: 10px;
+	padding: 20px;
+	width: 100%;
+	height: 200px;
+	border: none;
+	background: var(--oat);
+	box-shadow: none;
+	border: 1px solid var(--cream-line);
+	border-radius: 10px;
+	font-family: var(--font-body);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 26px;
+	color: var(--ink-soft);
+}
+
+.user-page .settings .member-media-frame {
+	margin-top: 25px;
+	position: relative;
+	padding: 10px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	border-radius: 5px;
+}
+
+.user-page .settings .member-media-frame .mb-image {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.user-page .settings .media_change-box {
+	position: relative;
+	margin-left: 20px;
+	width: auto;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.user-page .settings .media-change-box span {
+	font-family: var(--font-body);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+	color: var(--espresso);
+}
+
+.user-page .settings .media-change-box p {
+	margin: 10px 0px 14px 0px;
+	font-family: var(--font-body);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: var(--ink-soft);
+}
+
+.user-page .settings .up-del-box {
+	position: relative;
+	width: 37px;
+	height: 37px;
+	display: flex;
+	background: var(--oat);
+	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.user-page .settings .up-del-box input {
+	position: absolute;
+	width: 20px;
+	height: 16px;
+	padding: 0;
+	background: red;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+.user-page .settings .save-box {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 25px;
+}
+
+/* My Account refresh */
+.user-page { min-height: 100vh; background: var(--cream); }
+.my-account-container { max-width: 1180px !important; padding-top: clamp(52px, 7vw, 82px); padding-bottom: clamp(72px, 9vw, 112px); }
+.my-account-header { max-width: 630px; margin-bottom: 38px; }
+.my-account-header > span, .account-settings-heading > span { color: var(--rust); font: 800 12px var(--font-body); letter-spacing: .1em; }
+.my-account-header h1 { margin: 10px 0 12px; color: var(--espresso); font: 700 clamp(38px, 5vw, 58px)/1 var(--font-display); letter-spacing: -.045em; }
+.my-account-header p, .account-settings-heading p { margin: 0; color: var(--ink-soft); font: 500 16px/1.6 var(--font-body); }
+.my-account-layout { display: grid; grid-template-columns: minmax(260px, .42fr) minmax(0, 1fr); align-items: start; gap: clamp(24px, 4vw, 50px); }
+.account-summary-card, .account-settings-surface { border: 1px solid var(--cream-line); border-radius: var(--radius-lg); background: var(--cream-soft); box-shadow: 0 4px 15px rgba(44, 27, 18, .04); }
+.account-summary-card { display: flex; flex-direction: column; align-items: flex-start; padding: 28px; }
+.account-summary-avatar { width: 108px; height: 108px; margin-bottom: 22px; border: 3px solid var(--oat); border-radius: 50%; background: var(--oat); object-fit: cover; }
+.account-summary-type { margin-bottom: 9px; color: var(--rust); font: 800 11px var(--font-body); letter-spacing: .09em; text-transform: uppercase; }
+.account-summary-card h2 { margin: 0; color: var(--espresso); font: 700 30px/1.1 var(--font-display); letter-spacing: -.03em; }
+.account-summary-card p { margin: 9px 0 0; color: var(--ink-soft); font: 500 14px/1.5 var(--font-body); }
+.account-orders-link { margin-top: 25px !important; padding: 0 0 3px !important; border-bottom: 1px solid currentColor !important; border-radius: 0 !important; color: var(--espresso) !important; font: 750 13px var(--font-body) !important; text-transform: none !important; }
+.account-settings-surface { padding: clamp(24px, 4vw, 38px); }
+.account-settings-heading { margin-bottom: 24px; }
+.account-settings-heading h2 { margin: 7px 0 8px; color: var(--espresso); font: 700 32px/1.1 var(--font-display); letter-spacing: -.035em; }
+.user-page .settings { width: 100%; }
+.user-page .settings .member-media-frame { margin-top: 0; margin-bottom: 24px; padding: 0 0 24px; border-bottom: 1px solid var(--cream-line); }
+.user-page .settings .member-media-frame .mb-image { width: 88px; height: 88px; border: 2px solid var(--oat); }
+.user-page .settings .media-change-box { margin-left: 17px; }
+.user-page .settings .input-frame { gap: 16px; margin-top: 16px; }
+.user-page .settings .spec-input, .user-page .settings .spec-textarea { margin-top: 7px; background: var(--cream); color: var(--espresso); }
+.user-page .settings .spec-input:focus, .user-page .settings .spec-textarea:focus { border-color: var(--oak); outline: 2px solid rgba(201, 154, 91, .16); outline-offset: 1px; }
+.user-page .settings .spec-textarea { height: 142px; resize: vertical; }
+.user-page .settings .save-box { margin-top: 28px; justify-content: flex-start; }
+.user-page .settings .save-box button { min-width: 150px; min-height: 46px; border-radius: 10px; background: var(--espresso); color: var(--cream-soft); font: 750 14px var(--font-body); text-transform: none; }
+.user-page .settings .save-box button:hover { background: var(--mocha); }
+@media (max-width: 760px) { .my-account-layout { grid-template-columns: 1fr; } .account-summary-card { display: grid; grid-template-columns: 90px 1fr; column-gap: 18px; align-items: center; } .account-summary-avatar { width: 90px; height: 90px; grid-row: span 4; margin: 0; } .account-summary-type { margin: 0 0 4px; } .account-summary-card p { margin-top: 3px; } .account-orders-link { grid-column: 2; justify-self: start; margin-top: 15px !important; } }
+@media (max-width: 560px) { .my-account-container { padding-top: 40px; } .account-settings-surface, .account-summary-card { padding: 20px 16px; } .user-page .settings .input-frame { flex-direction: column; gap: 0; margin-top: 0; } .user-page .settings .short-input { width: 100%; margin-top: 16px; } .user-page .settings .member-media-frame { align-items: center; } .user-page .settings .save-box button { width: 100%; } }
